@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="winpop.css">
+</head>
+<body>
+
+ 
+	<a href="javascript:alert('重写Alert')">Alert</a>&nbsp;&nbsp;
+    <a href="javascript:confirm('重写Confirm', function(flag){if(flag){alert('ok');}else{alert('no');}})">Confirm</a>
+    <a href="javascript:prompt('请输入信息：', function(flag){if(flag){alert('你输入的信息是'+window.prompt.texts);}else{alert('你没有输入信息');}})">重写prompt</a>
+
+    <script src="jq.js"></script>
+	<script type="text/javascript" src="win2.js"></script>
+ 
+ 
+</body>
+</html>
